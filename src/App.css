@@ -1,0 +1,78 @@
+.App {
+  width: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.flex_center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upper{
+  border: solid 1px;
+  padding-left: 5px;
+}
+
+.bottom{
+  border: solid 1px;
+  border-top: none;
+  padding: 10px;
+}
+
+.rowcontent{
+  border: solid 1px;
+  margin-bottom: 10px;
+}
+
+.con_left{
+  padding-right: 5px;
+  border-right: solid 1px;
+}
+
+.con_left_ins{
+  padding: 10px;
+}
+
+.p_exrate{
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
